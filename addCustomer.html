@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="./scripts/addCustomer.js" type="module"></script>
+    <script src="./scripts/functions.js" type="module"></script>
+    <h3>Customer details</h3>
+    <form id="addcustomer" onsubmit="updateCustomerList()">
+        <input type="text" name="FirstName" placeholder="First name" required>
+        <input type="text" name="LastName" placeholder="Last name" required>
+        <br><br>
+        <input type="text" name="Street" placeholder="Street">
+        <input type="text" name="Address" placeholder="Address">
+        <br><br>
+        <input type="text" name="City" placeholder="City">
+        <input type="text" name="State" placeholder="State">
+        <br><br>
+        <input type="text" name="Email" placeholder="Email">
+        <input type="text"  name="Phone" placeholder="Phone">
+        <br><br>
+        <input type="submit">
+    </form>
+</body>
+</html>
